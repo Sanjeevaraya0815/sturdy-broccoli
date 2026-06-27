@@ -55,9 +55,7 @@ failed to do so. Students who excel in placement drives
 may not necessarily have the highest marks. Similarly,
 students with perfect attendance records may not
 necessarily be ready to take on industry. Something more complete is needed. This paper presents a hybrid deep learning system that pulls together 23 student attributes spanning four dimensions academic history, technical skills, career preparation, and behavioral indicators to simultaneously estimate an academic performance score and assign a placement readiness category of Low,Medium, or High. The core model pairs a Deep Neural Network handling static attribute inputs with an LSTM network reading semester score sequences, joining them at a fusion layer before dual-head output. The architecture was validated on 10,001 student records, achieving 97.4\% classification accuracy and an F1-score of 0.974  improvements of 9 and 11.6 percentage points over Random Forest and Decision Tree baselines. A weighted multi-task loss formulation, with classification weighted at 1.8 and regression at 0.35, was found to be a significant factor in reaching this performance level.
-
 \end{abstract}
-
 % -------------------- KEYWORDS --------------------
 \begin{IEEEkeywords}
 Placement drives, Deep Neural Network, LSTM, Hybrid Machine Learning, Educational Data Mining
