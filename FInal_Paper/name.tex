@@ -1,11 +1,5 @@
 
 
-Class Activation Mapping (CAM) generates coarse localization maps indicating discriminative regions by computing weighted sums of final convolutional feature maps. Grad-CAM generalizes CAM to arbitrary architectures using gradients for feature importance weighting, enabling visualization without architectural constraints.
-
-Attention mechanisms provide intrinsic interpretability by computing importance weights over spatial locations. Self-attention learns context-dependent scoring, directing focus toward relevant regions. However, attention weights represent intermediate computations, not complete explanations.
-
-Perturbation methods like LIME approximate local model behavior using interpretable surrogates, perturbing inputs by masking regions and training linear classifiers predicting outputs. Linear model coefficients indicate regional importance. While model-agnostic, perturbation methods require numerous forward passes, increasing computational cost.
-
 \subsection{Performance Evaluation Metrics}
 
 Medical diagnostic systems use metrics balancing sensitivity to true positives against specificity to true negatives. Accuracy measures overall correctness but misleads for imbalanced datasets.
