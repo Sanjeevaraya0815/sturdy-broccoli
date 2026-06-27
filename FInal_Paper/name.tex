@@ -1,12 +1,5 @@
 
 
-
-\subsection{Explainability in Deep Learning}
-
-Explainability techniques address deep neural network "black box" nature through three paradigms: ante-hoc interpretability (transparent architectures), post-hoc explanation generation (opaque models), and example-based explanation (case retrieval).
-
-Gradient-based methods compute input attributions by backpropagating prediction scores to input pixels. Simple gradients highlight high-magnitude pixels indicating perturbation sensitivity; Integrated Gradients accumulate gradients along baseline-to-input paths satisfying sensitivity and implementation invariance; SmoothGrad reduces noise through Gaussian-perturbed averaging.
-
 Class Activation Mapping (CAM) generates coarse localization maps indicating discriminative regions by computing weighted sums of final convolutional feature maps. Grad-CAM generalizes CAM to arbitrary architectures using gradients for feature importance weighting, enabling visualization without architectural constraints.
 
 Attention mechanisms provide intrinsic interpretability by computing importance weights over spatial locations. Self-attention learns context-dependent scoring, directing focus toward relevant regions. However, attention weights represent intermediate computations, not complete explanations.
