@@ -2,22 +2,7 @@
 % -------------------- INTRODUCTION --------------------
 \section{Introduction}
 
-Ocular diseases affect millions worldwide and are leading causes of preventable blindness. Diabetic retinopathy, glaucoma, cataracts, and age-related macular degeneration often progress silently until irreversible damage occurs~\cite{R1}. Vision impairment prevalence is substantially higher in low- and middle-income regions with limited ophthalmologic care~\cite{R2}. This underscores the need for accessible, accurate, and timely diagnostic solutions supporting early intervention.
-
-Traditional diagnosis relies on manual examination of retinal fundus images by experienced ophthalmologists. While clinically standard, these methods are time-consuming, labor-intensive, and subject to inter-observer variability, subjective interpretation, and specialist scarcity~\cite{R3,R4}. As ocular disease burden rises, automated intelligent screening systems are urgently needed to augment clinical decision-making.
-
-Deep learning and computer vision advances have revolutionized medical image analysis. CNNs demonstrate remarkable capabilities in learning discriminative features from medical images, achieving performance comparable to or exceeding human experts~\cite{R1,R5}. These models automatically extract hierarchical representations, capturing subtle patterns difficult for humans to detect consistently. Transfer learning from large-scale datasets like ImageNet enables effective training with limited medical imaging data~\cite{R6,R7}.
-
-Despite technological progress, lack of model interpretability remains a critical barrier to clinical adoption. Deep neural networks are "black boxes" providing predictions without transparent reasoning~\cite{R3,R4}. In high-stakes medical applications, clinicians require not only accurate predictions but also understandable explanations supporting informed decisions. Absence of interpretability limits clinical trust, hinders error analysis, and prevents meaningful AI integration into healthcare workflows~\cite{R8,R9}.
-
-Explainable Artificial Intelligence (XAI) addresses interpretability challenges by making model decisions transparent and comprehensible. Methods like Gradient-weighted Class Activation Mapping (Grad-CAM) and Local Interpretable Model-agnostic Explanations (LIME) generate saliency maps highlighting regions of interest, enabling clinicians to understand which features influenced diagnostic conclusions~\cite{R3,R4}.
-
-This research develops an Explainable AI-based multiclass ocular disease detection system addressing both high accuracy and transparency. The proposed framework integrates state-of-the-art CNN architectures with explainability techniques to classify multiple diseases from retinal fundus images. Grad-CAM visualization provides interpretable heatmaps localizing pathological regions, enhancing clinical trust and facilitating prediction validation.
-
-The paper organization: Section~\ref{sec:theoretical} provides theoretical background. Section~\ref{sec:related} presents comprehensive literature review. Section~\ref{sec:methodology} describes the proposed methodology. Section~\ref{sec:results} presents experimental results. Section~\ref{sec:hybrid} discusses hybrid approaches. Section~\ref{sec:issues} identifies challenges. Section~\ref{sec:future} outlines future directions. Section~\ref{sec:conclusion} concludes.
-
-% -------------------- THEORETICAL BACKGROUND --------------------
-\section{Theoretical Background}
+Ocular diseases affect millions worldwide and are leading causes of preventable blindness. Diabetic retinopathy, glaucoma, cataracts, and age-related macular 
 \label{sec:theoretical}
 
 This section establishes foundational concepts for explainable AI-based ocular disease detection: retinal anatomy, imaging modalities, deep learning architectures, and explainability paradigms.
