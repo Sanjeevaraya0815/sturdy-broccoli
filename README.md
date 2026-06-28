@@ -1,7 +1,6 @@
-::: IEEEkeywords
+IEEEkeywords
 Placement drives, Deep Neural Network, LSTM, Hybrid Machine Learning,
 Educational Data Mining
-:::
 
 # Introduction
 
